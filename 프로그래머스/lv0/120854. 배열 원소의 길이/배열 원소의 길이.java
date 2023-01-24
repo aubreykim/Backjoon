@@ -7,3 +7,16 @@ class Solution {
         return answer;
     }
 }
+
+/*
+
+        this code is which one doesn't need double loop;
+        But this is should cast String array -> HashSet;
+        
+        HashSet<String> set = new HashSet<>(List.of(s1));
+        for (String s : s2) {
+            if(set.contains(s)){
+                answer++;
+            }
+        }
+*/
